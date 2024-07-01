@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://wallpapercave.com/wp/wp4892382.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    position: relative;
+    background: transparent;
+    max-width: 400px;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.card h1 {
+    color: #fff;
+    /* font-style: italic; */
+    /* text-transform: uppercase; */
+    font-weight: bolder;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    border: rgb(228, 228, 228);
+}
+
+.text-center button, #btnlogout {
+    width: 40%;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 30px;
+    border-color: #fff;
+    margin: 10px 0;
+}
+
+.form-group .form-control {
+    margin-left: 18px;
+}
+
+.form-group label {
+    color: #fff;
+}
+
+.text-center label {
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 1opx;
+}
+
+.text-center .btn-primary, #btnlogout  {
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.text-center .btn:hover {
+    background-color: transparent;
+}
+
+.text-center a, p{
+    color: #fff;
+    text-decoration: none;
+}
+
+.text-center a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.text-center label {
+    margin-top: 20px;
+}
+
+.card .form-group {
+    display: block;
+    align-items: center;
+}
+
+#fields {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 22px;
+}
